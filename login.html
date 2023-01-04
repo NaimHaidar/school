@@ -1,0 +1,68 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Login Page </title>  
+<style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: #773344; 
+   
+}  
+.all{
+    width: 50% ;
+    height: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    text-align: center;
+}
+button {   
+       background-color: #727472;   
+       width: 100%;  
+        color: #773344;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+ form {   
+        border: 3px solid #f1f1f1;   
+    }   
+ input[type=email], input[type=password] {   
+        width: 100%;   
+        margin: 8px ;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid #727472;
+        box-sizing: border-box;   
+    }  
+
+
+     
+ .container {   
+        padding: 25px;   
+        background-color: #20a39e;  
+    }   
+</style>   
+</head>    
+<body> 
+    <div class="all">   
+     <h1 id="h"> Student Login Form </h1> 
+    <form>  
+        <div class="container">   
+            <label>Email : </label>   
+            <input type="email" placeholder="Enter Email" name="email" required>  
+            <label>Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" required>  
+            <button type="submit">Login</button>   
+            <label >
+            <input type="checkbox" checked="checked"> Remember me  Forgot <a href="#"> password? </a>    
+              </label>
+              &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+              <label >New User??<a href="signup.html">Sign Up</a> </label>
+        </div>   
+    </form>   
+      
+</body>     
+</html>  
