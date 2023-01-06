@@ -1,0 +1,54 @@
+Body {  
+    font-family: Calibri, Helvetica, sans-serif;  
+    background-image:url("img/MySchool2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+   
+  }  
+
+  Body::before {
+    Position : absolute;
+    Left:0;
+    Top:0;
+   background-color:rgba(7, 6, 14, 0.3) ;
+    height: 100vh;
+    width: 100vw;
+    z-index:0;
+    content: "";
+    
+    }
+  .all{
+      width: 50% ;
+      height:auto;
+      position: absolute;
+      top: 25%;
+      left: 25%;
+      text-align: center;
+  }
+  button {   
+         background-color: #727472;   
+         width: 100%;  
+          color: #773344;   
+          padding: 15px;   
+          margin: 10px 0px;   
+          border: none;   
+          cursor: pointer;   
+           }   
+   form {   
+          border: 3px solid #f1f1f1;   
+      }   
+   input[type=email], input[type=password] {   
+          width: 100%;   
+          margin: 8px ;  
+          padding: 12px 20px;   
+          display: inline-block;   
+          border: 2px solid #727472;
+          box-sizing: border-box;   
+     
+    }  
+
+   .container {   
+          padding: 25px;   
+          background-color: #20a39e;  
+      }   
