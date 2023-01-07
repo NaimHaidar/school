@@ -17,16 +17,17 @@
         <title>Login</title>
         <link rel="icon" type="image" href="img\logo 1.png">
         <link rel="stylesheet" href="sign up.css">
+        <script src="main.js"></script>
     </head>
     <body>
         <div id="login-box">
             <div class="left">
-                <br><br><form action="" method="post">
+                <br><br><form action="" method="post" >
               <h1>Login</h1>
-              <input type="text" name="username" placeholder="Username" />
-              <input type="password" name="password" placeholder="Password" />
+              <input type="text"  id="user" name="username" placeholder="Username" />
+              <input type="password"id="pass" name="password" placeholder="Password" />
               <label>New User? <a href="sign up.html">Sign Up</a></label>
-             <input type="submit" name="login" value="login" />
+             <input type="submit" name="login" value="login" onclick="validLogin()"/>
             </form>
 
             </div>
