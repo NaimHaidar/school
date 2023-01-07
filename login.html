@@ -4,25 +4,43 @@
 <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1">  
 <title> Login Page </title>  
 <link rel="stylesheet" href="login.css">
+<link rel="icon" type="image" href="img\logo 1.png">
 
 </head>    
 <body> 
-    <div class="all">   
-     <h1 id="h"> Student Login Form </h1> 
-    <form>  
-        <div class="container">   
-            <label>Email : </label>   
-            <input type="email" placeholder="Enter Email" name="email" required>  
-            <label>Password : </label>   
-            <input type="password" placeholder="Enter Password" name="password" required>  
-            <button type="submit">Login</button>   
-            <label >
-            <input type="checkbox" checked="checked"> Remember me  Forgot <a href="#"> password? </a>    
-              </label>
-              &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-              <label >New User??<a href="sign up.html">Sign Up</a> </label>
-        </div>   
-    </form>   
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="icon" type="image" href="img\logo 1.png">
+        <link rel="stylesheet" href="sign up.css">
+    </head>
+    <body>
+        <div id="login-box">
+            <div class="left">
+                <br><br>
+              <h1>Login</h1>
+              <input type="text" name="username" placeholder="Username" />
+              <input type="password" name="password" placeholder="Password" />
+              <label>New User? <a href="sign up.html">Sign Up</a></label>
+             <input type="submit" name="login" value="login" />
+
+            </div>
+            
+            <div class="right">
+              <span class="loginwith">Continue with<br />social network</span>
+              
+              <button class="social-signin facebook">Log in with facebook</button>
+              <button class="social-signin twitter">Log in with Twitter</button>
+              <button class="social-signin google">Log in with Google+</button>
+            </div>
+            <div class="or">OR</div>
+          </div>
+    </body>
+    </html>
       
 </body>     
 </html>  

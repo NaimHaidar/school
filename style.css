@@ -54,12 +54,16 @@ nav {
   nav a:hover{ 
     background-color:lavender
   }
+  .scroll{
+    position:absolute;
+    top:20%;
+  }
   .sebit{
     position: relative;
 
     left: 50%;
      transform:translateX(-50%);
-     width:90%;
+     width:80%;
      height: auto;
     border: 10px solid #ddd;
     overflow: hidden;
@@ -69,7 +73,7 @@ nav {
   .met7arik{
     width: 100%;
     display: flex;
-    animation: t7arak 10s infinite  ease-in;
+    animation: t7arak 10s infinite  linear;
   }
   img{width: 100%;}
 

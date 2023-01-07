@@ -1,0 +1,42 @@
+body{
+    background-image: url("img/MySchool5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: #757575;
+  opacity:0.4;
+}
+input[type=submit] {
+  background-color: #4cd9c6;
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #6fe8d7;
+}
+.container {
+  border-radius: 8px;
+ width:auto;
+  padding: 15px;
+}
