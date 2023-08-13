@@ -1,0 +1,33 @@
+.terms-and-conditions-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+@media(max-width: 1600px) {
+  .terms-and-conditions-container {
+    padding: var(--dl-space-space-unit);
+  }
+  .terms-and-conditions-text {
+    height: 43px;
+    align-self: center;
+    margin-bottom: var(--dl-space-space-fiveunits);
+  }
+  .terms-and-conditions-text06 {
+    align-self: flex-start;
+  }
+}
+@media(max-width: 1200px) {
+  .terms-and-conditions-container {
+    background-color: #1B2223;
+  }
+  .terms-and-conditions-text {
+    color: #137DC5;
+  }
+  .terms-and-conditions-text06 {
+    color: #137DC5;
+  }
+}
